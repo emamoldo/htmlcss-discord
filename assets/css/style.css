@@ -12,6 +12,7 @@
     --dis-fifth-rectangle: #f08181;
     --dis-sixth-rectangle: #20b2aa;
     --dis-footer: #7ffed5;
+    --dis-purple: #8ea1e1;
 }
 body{
     margin: 0;
@@ -43,7 +44,6 @@ body{
     color: #23272a;
 }
 /* /Header */
-
 
 /* Site Main */
 .first{
@@ -81,7 +81,7 @@ h1{
 }
 /* /Site Main */
 
-
+/* Main 2nd Part */
 .second{
     background-color: #ffffff;
     height: 350px;
@@ -89,18 +89,24 @@ h1{
     display: flex;
     padding-left: 400px;
     padding-right: 400px;
-    padding-bottom: 20px;
+    padding-bottom: 300px;
 }
 .second_rectangle{
-    background-color: #1e91fe;
     width: 75%;
     
 }
 .second_aside{
-    background-color: #ffc0cb;
     width: 25%;
 }
+#title{
+    font-size: 40px;
+}
+#item1_text{
+font-size: 19px;
+}
+/* Main 2nd Part */
 
+/* Main 3rd Part */
 .third{
     background-color: #d3d3d3;
     height: 350px;
@@ -108,19 +114,19 @@ h1{
     display: flex;
     padding-left: 400px;
     padding-right: 400px;
-    padding-bottom: 20px;
+    padding-bottom: 300px;
 }
 
 #third_rectangle{
-    background-color: #ffc0cb;
     width: 25%;
 
 }
 #third_aside{
-    background-color: #1e91fe;
     width: 75%;
 }
+/* Main 3rd Part */
 
+/* Main 4th Part */
 .fourth{
     background-color: #ffffff;
     height: 350px;
@@ -128,31 +134,40 @@ h1{
     display: flex;
     padding-left: 400px;
     padding-right: 400px;
-    padding-bottom: 20px;
+    padding-bottom: 300px;
 }
 .fourth_rectangle{
-    background-color: #1e91fe;
     width: 75%;
 }
 .fourth_aside{
-    background-color: #ffc0cb;
     width: 25%;
 }
+/* /Main 4th Part */
 
+/* Main 5th Part */
 .fifth{
     background-color: #d3d3d3;
     height: 500px;
     padding-top: 20px;
+    padding-bottom: 500px;
+    text-align: center;
 }
 .fifth_rectangle{
-    background-color: #228a23;
     height: 400px;
-    padding-bottom: 80px;
+    padding-bottom: 300px;
     margin-left: 400px;
     margin-right: 500px;
     width: 1100px;
 }
+#download_purple{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #8ea1e1;
+    color: #ffffff;
+}
 
+/* Main 5th Part */
 .sixth{
     display: flex;
     background-color: #23272a;
