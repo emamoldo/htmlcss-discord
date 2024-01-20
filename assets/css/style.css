@@ -186,7 +186,6 @@ font-size: 19px;
     padding-bottom: 50px;
 }
 
-
 .sixth_rectangle{
     color: var(--dis-purple);
     width: 400px;
@@ -209,11 +208,6 @@ font-size: 19px;
     font-size: 20px;
     padding-left: 5px;
 }
-
-hr{
-    margin: 0;
-    height: 1px;
-}
 /* /Main */
 
 /* Footer */
@@ -224,7 +218,10 @@ hr{
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
+.hr{ 
+    margin-left: 300px;
+    margin-right: 200px;
+}
 #site_footer{
     background-color: var(--dis-fourth-bg-main);
     padding-top: 20px;
